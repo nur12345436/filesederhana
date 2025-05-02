@@ -34,7 +34,7 @@ st.markdown("""
         font-size: 1.35rem;
         text-align: justify;
         font-family: 'Open Sans', sans-serif;
-        padding: 1rem;
+        padding: 0.9rem;
     }
 
     .kegiatan-title-main {
