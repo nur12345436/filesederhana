@@ -70,7 +70,7 @@ col1, col2 = st.columns([1, 2])
 
 with col1:
     st.markdown('<div style="margin-top: 50px;"></div>', unsafe_allow_html=True)
-    st.image("images/sipandainyasic.jpg", width=300)
+    st.image("images/sipandainyasic.jpg", width=500)
 
 with col2:
     st.markdown("""
