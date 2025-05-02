@@ -70,7 +70,7 @@ col1, col2 = st.columns([1, 2])
 
 with col1:
     st.markdown('<div style="margin-top: 50px;"></div>', unsafe_allow_html=True)
-    st.image("images/sipandainyasic.jpg", width=250)
+    st.image("images/sipandainyasic.jpg", width=300)
 
 with col2:
     st.markdown("""
@@ -90,7 +90,7 @@ st.markdown('<div class="kegiatan-title-main">Manfaat SIPANDAI</div>', unsafe_al
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.image("images/hpterdeteksi.png", width=80)
+    st.image("images/hpterdeteksi.png", width=500)
     st.markdown('<div class="kegiatan-title">Deteksi Kecurangan Otomatis</div>', unsafe_allow_html=True)
     st.markdown("""
     <div class="kegiatan-desc">
@@ -99,7 +99,7 @@ with col1:
     """, unsafe_allow_html=True)
 
 with col2:
-    st.image("images/buzzer.png", width=80)
+    st.image("images/buzzer.png", width=500)
     st.markdown('<div class="kegiatan-title">Teguran Tanpa Gangguan</div>', unsafe_allow_html=True)
     st.markdown("""
     <div class="kegiatan-desc">
@@ -108,7 +108,7 @@ with col2:
     """, unsafe_allow_html=True)
 
 with col3:
-    st.image("images/berita.png", width=80)
+    st.image("images/berita.png", width=500)
     st.markdown('<div class="kegiatan-title">Bukti Nyata untuk Tindak Lanjut</div>', unsafe_allow_html=True)
     st.markdown("""
     <div class="kegiatan-desc">
